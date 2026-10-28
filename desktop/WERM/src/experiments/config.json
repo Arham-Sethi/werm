@@ -1,0 +1,60 @@
+{
+    "project": "WERM",
+    "experiment_id": "00_freeze",
+    "description": "Freeze evaluation protocol for all subsequent experiments (clamps, scaling, deterministic outputs).",
+    "input": {
+        "frozen_csv_name": "fusion_results_FREEZE.csv",
+        "id_column": "image_id"
+    },
+    "fusion": {
+        "weights": {
+            "M": 0.30,
+            "G": 0.20,
+            "R": 0.20,
+            "T": 0.30
+        },
+        "formula": "risk_raw = exp(wM*log(Mc) + wG*log(Gc) + wR*log(Uc) + wT*log(Tc))",
+        "notes": {
+            "Mc": "clamped moisture M",
+            "Uc": "clamped uncovered fraction (1-R)",
+            "Tc": "clamped effective tillage T_eff",
+            "Gc": "clamped normalized GDD G"
+        }
+    },
+    "clamp_policy": {
+        "eps_default": 1e-6,
+        "eps_sanity_alt": 1e-4,
+        "apply_to": [
+            "M",
+            "U",
+            "T_eff",
+            "G"
+        ],
+        "u_definition": "U = 1 - R",
+        "clamp_rule": "x_clamped = max(x, eps) before log"
+    },
+    "scaling": {
+        "pipeline": [
+            "log(risk_raw)",
+            "robust_center_scale: z = (x - median)/MAD",
+            "tanh_compress: y = tanh(z)",
+            "map_to_0_100"
+        ],
+        "mad_definition": "MAD = median(|x - median(x)|); if MAD==0 use tiny fallback"
+    },
+    "outputs": {
+        "folder": "WERM/experiments/00_freeze",
+        "tables": [
+            "risk_eps_1e-6.csv",
+            "risk_eps_1e-4.csv",
+            "step0_metrics_summary.csv"
+        ],
+        "figures": [
+            "step0_eps_rank_scatter.png"
+        ]
+    },
+    "reproducibility": {
+        "random_seed": 42,
+        "notes": "No randomness should be used in Step 0; seed is reserved for later ensembles."
+    }
+}

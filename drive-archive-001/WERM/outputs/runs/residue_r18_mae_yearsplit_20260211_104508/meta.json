@@ -1,0 +1,24 @@
+{
+  "task": "residue_fraction_regression",
+  "data_root": "/content/drive/MyDrive/WERM/data/residue_usgs",
+  "csv_path": "/content/drive/MyDrive/WERM/data/residue_usgs/labels.csv",
+  "img_size": 224,
+  "batch_size": 32,
+  "epochs": 15,
+  "lr": 0.0003,
+  "weight_decay": 0.01,
+  "train_years": [
+    2015,
+    2016,
+    2017,
+    2019
+  ],
+  "val_years": [
+    2021,
+    2022
+  ],
+  "model": "resnet18_regression",
+  "run_dir": "/content/drive/MyDrive/WERM/outputs/runs/residue_r18_mae_yearsplit_20260211_104508",
+  "tb_dir": "/content/drive/MyDrive/WERM/outputs/runs/residue_r18_mae_yearsplit_20260211_104508/tb",
+  "device": "cuda"
+}

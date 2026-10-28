@@ -1,0 +1,4 @@
+Species,Common Name,Tb (degC),GDD Total (Cd),GDD Normalized,Raw Risk Ratio (sp/orig),Spearman rho [re-scaled],Top-20% Overlap [re-scaled],Mean |Diff| [re-scaled],Spearman rho [fixed-scale],Top-20% Overlap [fixed-scl],Mean |Diff| [fixed-scale],Mean Signed Diff [fixed]
+Phalaris minor,littleseed canary grass,1.0,125.49,1.000000,1.173161,1.000000,1.0000,0.0000,1.000000,1.0000,13.7995,+13.7995
+Chenopodium album,bathua,3.0,111.49,0.929123,1.156038,1.000000,1.0000,0.0000,1.000000,1.0000,12.5771,+12.5771
+Melilotus indica,senji,0.0,132.49,1.000000,1.173161,1.000000,1.0000,0.0000,1.000000,1.0000,13.7995,+13.7995

@@ -1,0 +1,6 @@
+Metric,Value
+Spearman rho,0.954123
+Kendall tau-b,0.838634
+Top-20% overlap,0.8806
+Top-10% overlap,0.9118
+Mean |diff| score,5.3889

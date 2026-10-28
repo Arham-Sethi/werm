@@ -1,0 +1,850 @@
+{
+  "project": "werm",
+  "source_file_count": 81,
+  "source_bytes": 544646,
+  "files": [
+    {
+      "release_path": "desktop/grid_imgs.csv",
+      "origin": "desktop",
+      "original_path": "grid_imgs.csv",
+      "sha256": "9e13f657125ae02671aef708fdb033352f620eff3f31a03de2a4454ca2c61b30",
+      "bytes": 1920,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/run_spatial_werm.py",
+      "origin": "desktop",
+      "original_path": "run_spatial_werm.py",
+      "sha256": "29e524dcdc9dffe6a84158c73d2deabff2d12366866238a05762fbb079823e24",
+      "bytes": 7776,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/spatial_analysis.py",
+      "origin": "desktop",
+      "original_path": "spatial_analysis.py",
+      "sha256": "35f600c9b20bd05c23dd57cc858061d4f5aa4110ea7075929a5580dae7fd0c9a",
+      "bytes": 24445,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/spatial_werm_outputs.csv",
+      "origin": "desktop",
+      "original_path": "spatial_werm_outputs.csv",
+      "sha256": "bed222f037c742a1aa274f9bf8c1ffcac3008bc2edc9e10410664c1de002e4fb",
+      "bytes": 3293,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/fusion_comparison/agreement_metrics.csv",
+      "origin": "desktop",
+      "original_path": "results/fusion_comparison/agreement_metrics.csv",
+      "sha256": "a50085707dbdffb0ff38c125d64897aee119191c2d4d6e00eea4663f4820dc79",
+      "bytes": 135,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/fusion_comparison/disagreement_images.csv",
+      "origin": "desktop",
+      "original_path": "results/fusion_comparison/disagreement_images.csv",
+      "sha256": "165119e6cf8cd763a94ac8bd3311809ebc9c5a9f3d431b87ec2edc7fb8a81d26",
+      "bytes": 5444,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/fusion_comparison/epsilon_sensitivity.csv",
+      "origin": "desktop",
+      "original_path": "results/fusion_comparison/epsilon_sensitivity.csv",
+      "sha256": "66f188b29aa665b7cdd4fe4360915eab279feb8a0438aa1a325bf6d7e6ea9419",
+      "bytes": 117,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/fusion_comparison/farmer_agreement.csv",
+      "origin": "desktop",
+      "original_path": "results/fusion_comparison/farmer_agreement.csv",
+      "sha256": "d4e439fe4da15f3e77880346a46737757d2a2b790d369e1586aaf3a800a022a3",
+      "bytes": 196,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/fusion_comparison/per_image_detail.csv",
+      "origin": "desktop",
+      "original_path": "results/fusion_comparison/per_image_detail.csv",
+      "sha256": "ab2f2f9b9affd6415735f768f70009807d5900144e43733055b04dda6340f782",
+      "bytes": 52935,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/fusion_comparison/suppression_pattern.csv",
+      "origin": "desktop",
+      "original_path": "results/fusion_comparison/suppression_pattern.csv",
+      "sha256": "d4671d32becf0152b3dea769c863a6b796fb8b950206eb0c30f673d2d2dc590f",
+      "bytes": 124,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/spatial_diagnostics/block_stats.csv",
+      "origin": "desktop",
+      "original_path": "results/spatial_diagnostics/block_stats.csv",
+      "sha256": "963099492d2bc07dab6dcfb9a7b54441e8b7b765851c0f0fb9e081a2134c27a9",
+      "bytes": 220,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/spatial_diagnostics/morans_i_results.csv",
+      "origin": "desktop",
+      "original_path": "results/spatial_diagnostics/morans_i_results.csv",
+      "sha256": "6fbd4cb0b5565d690154ab2276b077a803ad958a7b1ceb83ca8c9ef1b60cf898",
+      "bytes": 223,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/spatial_diagnostics/semivariogram_params.csv",
+      "origin": "desktop",
+      "original_path": "results/spatial_diagnostics/semivariogram_params.csv",
+      "sha256": "61815d463ff34630e864f3b3c9447aa566d0cf1192f77d17bf41661bd79c4022",
+      "bytes": 172,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/spatial_diagnostics/spatial_full.csv",
+      "origin": "desktop",
+      "original_path": "results/spatial_diagnostics/spatial_full.csv",
+      "sha256": "de528572c5c2b6ee9e5709239b07c3072f5274345eb9519dfa5a18ee32290676",
+      "bytes": 7145,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/species_sensitivity/gdd_comparison.csv",
+      "origin": "desktop",
+      "original_path": "results/species_sensitivity/gdd_comparison.csv",
+      "sha256": "ffad0b76d533d8cb746a66ec94362b3873af55d92eb035d21156d1090c9cc7bd",
+      "bytes": 303,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/species_sensitivity/migration_matrix_Chenopodium_album_fixed.csv",
+      "origin": "desktop",
+      "original_path": "results/species_sensitivity/migration_matrix_Chenopodium_album_fixed.csv",
+      "sha256": "6293fc6e8f85f7d6e19a3053a51cdf13e00c879e31595bdfd0a4377f9d71694d",
+      "bytes": 92,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/species_sensitivity/migration_matrix_Chenopodium_album_rescaled.csv",
+      "origin": "desktop",
+      "original_path": "results/species_sensitivity/migration_matrix_Chenopodium_album_rescaled.csv",
+      "sha256": "6293fc6e8f85f7d6e19a3053a51cdf13e00c879e31595bdfd0a4377f9d71694d",
+      "bytes": 92,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/species_sensitivity/migration_matrix_Melilotus_indica_fixed.csv",
+      "origin": "desktop",
+      "original_path": "results/species_sensitivity/migration_matrix_Melilotus_indica_fixed.csv",
+      "sha256": "6293fc6e8f85f7d6e19a3053a51cdf13e00c879e31595bdfd0a4377f9d71694d",
+      "bytes": 92,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/species_sensitivity/migration_matrix_Melilotus_indica_rescaled.csv",
+      "origin": "desktop",
+      "original_path": "results/species_sensitivity/migration_matrix_Melilotus_indica_rescaled.csv",
+      "sha256": "6293fc6e8f85f7d6e19a3053a51cdf13e00c879e31595bdfd0a4377f9d71694d",
+      "bytes": 92,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/species_sensitivity/migration_matrix_Phalaris_minor_fixed.csv",
+      "origin": "desktop",
+      "original_path": "results/species_sensitivity/migration_matrix_Phalaris_minor_fixed.csv",
+      "sha256": "6293fc6e8f85f7d6e19a3053a51cdf13e00c879e31595bdfd0a4377f9d71694d",
+      "bytes": 92,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/species_sensitivity/migration_matrix_Phalaris_minor_rescaled.csv",
+      "origin": "desktop",
+      "original_path": "results/species_sensitivity/migration_matrix_Phalaris_minor_rescaled.csv",
+      "sha256": "6293fc6e8f85f7d6e19a3053a51cdf13e00c879e31595bdfd0a4377f9d71694d",
+      "bytes": 92,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/species_sensitivity/per_image_scores.csv",
+      "origin": "desktop",
+      "original_path": "results/species_sensitivity/per_image_scores.csv",
+      "sha256": "184dcf3cd0197823c94ff7b488cc5017bd2e52e5a660ff534d24ae3b687685be",
+      "bytes": 76807,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/results/species_sensitivity/species_summary.csv",
+      "origin": "desktop",
+      "original_path": "results/species_sensitivity/species_summary.csv",
+      "sha256": "1fcb46c51f39944638c696e269a93817e28761394b81981fbbb3fb815bba9e1b",
+      "bytes": 614,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/config/fusion_config.yaml",
+      "origin": "desktop",
+      "original_path": "WERM/config/fusion_config.yaml",
+      "sha256": "329a119d54eedb07426cf2e60768185bb725e948e87bf235dbec6a12250afc9c",
+      "bytes": 572,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/check_soil_mask.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/check_soil_mask.py",
+      "sha256": "7ffe72d7fccc88ab28839481c9a23d097bbe14f600932d00e1b769fba09e420b",
+      "bytes": 3408,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/color_index.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/color_index.py",
+      "sha256": "1da1befce12d4af3fc6ee65a29a6811b0c4291bac3f3b68963d9bfe50d7aa879",
+      "bytes": 2932,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/color_robustness_test.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/color_robustness_test.py",
+      "sha256": "9953584e398ef7c8c1027c6c44b7b950658bf34b2832b2f9c708fc277715cd50",
+      "bytes": 2573,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/experiment_runner.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/experiment_runner.py",
+      "sha256": "a722c8f20e663abd97bbaac96247dfc837fea59f542ab95815f9476a22b12bf6",
+      "bytes": 2103,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/fuse_risk.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/fuse_risk.py",
+      "sha256": "297099540e23e6851a6b54d4fe8df086e2828aafa9e11cb9cbed4a5492db5ff7",
+      "bytes": 2269,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/fusion_audit.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/fusion_audit.py",
+      "sha256": "9a372da82fe1fe416d7d25448c7d1948cf907626ab8dd7c1d0f9e9505e158bca",
+      "bytes": 2185,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/fusion_comparison.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/fusion_comparison.py",
+      "sha256": "f5bdaae8034ee710b8dfa52f0019f42e5c83d4ecb9f3298d3337b95cec0b9b12",
+      "bytes": 35197,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/fusion_engine.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/fusion_engine.py",
+      "sha256": "82e621bd988ef67d6df70156ee7bbfe214e94e5c0e6f77845da0087b216522fd",
+      "bytes": 2549,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/fusion_final.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/fusion_final.py",
+      "sha256": "2b120505bc9002ef1acb7a84870ebce6c7589bd96aa514f29acf0dc4ee0245df",
+      "bytes": 14529,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/fusion_infer.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/fusion_infer.py",
+      "sha256": "42d3f54026d55f09cc1e4e9255cd8d9701838b26777588a6594841f98c42896f",
+      "bytes": 4953,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/fusion_infer1.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/fusion_infer1.py",
+      "sha256": "fee854f873c931e252eb642499c0ce1ff3fd9305bb8955594406fc070c20a120",
+      "bytes": 7441,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/infer_moisture_to_csv.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/infer_moisture_to_csv.py",
+      "sha256": "2b9fa7495bc56b101dbbcb7446a021308705bb6eaf3d66d29079c77ee2df07e3",
+      "bytes": 3807,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/infer_residue_to_csv.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/infer_residue_to_csv.py",
+      "sha256": "faa07e9a1bd11f7e58efbd11014d2f4c465a9fc937afe6fd192ed7a90274fc56",
+      "bytes": 3524,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/insa_regression.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/insa_regression.py",
+      "sha256": "dc91b928c0d748bc750927771b367efd7efdd0a55e3643af09f41697bd4a69de",
+      "bytes": 1245,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/make_all_paper_figures_v2.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/make_all_paper_figures_v2.py",
+      "sha256": "561222a251759f72f32291452f25b080c02c805dab77ff7bf5f4b859fba3f8b1",
+      "bytes": 22343,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/make_all_paper_figures_v3.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/make_all_paper_figures_v3.py",
+      "sha256": "ade543b7e1452eca0293aec2d6327c0a02c0c89413ce758c62ac395a7794bfba",
+      "bytes": 38846,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/moisture_multitask.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/moisture_multitask.py",
+      "sha256": "b7e85f6210aca7cc03ff4b3398cf568b381fb25263063145ac0082da5a0117ec",
+      "bytes": 762,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/species_sensitivity.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/species_sensitivity.py",
+      "sha256": "309e242afac7e0cb5cd8a8f74a40a28cd2552148bff022d0442abaa12d9da795",
+      "bytes": 26881,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/temperature_gdd.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/temperature_gdd.py",
+      "sha256": "135ae66e517ddc07f886d8ef9321de3d88a19be55561afb9a1830e5538629cab",
+      "bytes": 3067,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/tillage_module.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/tillage_module.py",
+      "sha256": "8c008deb108f4f43345062a376daaca9b127cd7fde61f6936386959b83e22a34",
+      "bytes": 3478,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/tillage_texture.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/tillage_texture.py",
+      "sha256": "835260c78897191132b0bb22bae46d23b84d704469beb81e442dac057c818eca",
+      "bytes": 4104,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/tillage_weight_search.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/tillage_weight_search.py",
+      "sha256": "40b90a0edbe17070d503fb81c4bf09fea75fe169efb58b32729d639191a9f152",
+      "bytes": 1641,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/validate_tillage_texture.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/validate_tillage_texture.py",
+      "sha256": "6494564ba441fddf14816ffd26760978b58d3d95514ff4077ddea920bc653316",
+      "bytes": 5646,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/experiments/config.json",
+      "origin": "desktop",
+      "original_path": "WERM/src/experiments/config.json",
+      "sha256": "d25afb46527e8f6e9d31757cd2b8e1b9b8a1411cda0478852b2fe69e50b40c40",
+      "bytes": 1831,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/experiments/run_step0_freeze_drive.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/experiments/run_step0_freeze_drive.py",
+      "sha256": "d819aa4c44101d0f0962f0f9fc681627b6e83c22a64dabdc23c55d9691a7ebc3",
+      "bytes": 6296,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/experiments/run_step1_alpha_sweep.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/experiments/run_step1_alpha_sweep.py",
+      "sha256": "7747c7e940b21a5631f926debb8ce1c5ed6cc6402d745ab1655d15ac983f8fee",
+      "bytes": 2988,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/experiments/run_step1_variance_alpha0_alpha1.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/experiments/run_step1_variance_alpha0_alpha1.py",
+      "sha256": "906e75b9a0bcd49013666c9bb1a91e6327256988e2090da071c9f92381aeb611",
+      "bytes": 2486,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/experiments/run_step2_additive_vs_geometric.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/experiments/run_step2_additive_vs_geometric.py",
+      "sha256": "65cd9b1159575f7fcdf0d768b82d5096ee17637fce92b9f921b88af8ed791172",
+      "bytes": 4613,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/experiments/run_step3_weight_robustness.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/experiments/run_step3_weight_robustness.py",
+      "sha256": "5518ea693e300eb7d8bd2121d27b48a9ec9649283d0b500699118fdc09242639",
+      "bytes": 4832,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/experiments/run_step4_lofo.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/experiments/run_step4_lofo.py",
+      "sha256": "9c2bf529e2a583f38c750643212b634581f97d7cc65351922aa343b51c6c1f7a",
+      "bytes": 3114,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/experiments/run_step5_scalers.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/experiments/run_step5_scalers.py",
+      "sha256": "3067187e9d9a4218e2f311d4a71f5b96854b14b18db148014b5182aad348c1f2",
+      "bytes": 4605,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/experiments/run_step6_noise.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/experiments/run_step6_noise.py",
+      "sha256": "96580c3ffff426c19b891c0c33b5bb06f34245ec9b4145daf75fdd10d28080b9",
+      "bytes": 2938,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/experiments/run_step7_dirichlet.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/experiments/run_step7_dirichlet.py",
+      "sha256": "60158baa44b4c2902252466ddea8b5d6b7c38e630e19e3f4fa5d9654af796389",
+      "bytes": 4569,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/residue_cover/dataset_residue.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/residue_cover/dataset_residue.py",
+      "sha256": "6a7154e732d3f1a1b6fd688d56de00c715eff06ef65c58190250a859e87f52b5",
+      "bytes": 1170,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/residue_cover/dump_val_preds_residue.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/residue_cover/dump_val_preds_residue.py",
+      "sha256": "c630b1ebfa6554877074f4a752e5ce1e34e0afa5c478c61a78950b76fcfd6932",
+      "bytes": 2088,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/residue_cover/eval_residue_strat_test.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/residue_cover/eval_residue_strat_test.py",
+      "sha256": "4c99c0b45a793112dd3027ceebda4ff676efb7d733d3e9a6e581e04818d62748",
+      "bytes": 2155,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/residue_cover/residue_baseline_classical.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/residue_cover/residue_baseline_classical.py",
+      "sha256": "4f09be3b29c489ed527520f2bc5f22d36081c9f8fb86d65bad465f2f092b12f7",
+      "bytes": 2951,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/residue_cover/train_residue.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/residue_cover/train_residue.py",
+      "sha256": "2167b4a4d98ba7cf2507c58f96121e629b03775b440be06f54ebe87a1c583b1a",
+      "bytes": 3900,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/soil_moisture/batch_compare.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/soil_moisture/batch_compare.py",
+      "sha256": "2b07badf2c1f80190046fb6231d5f37917b252a674eaac95d01e79ae214e1452",
+      "bytes": 8591,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/soil_moisture/config.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/soil_moisture/config.py",
+      "sha256": "94b54e265b8e4838b509f5902f7367e146d2ef61ce66603561fa6f5ff880dd74",
+      "bytes": 1085,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/soil_moisture/config2.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/soil_moisture/config2.py",
+      "sha256": "38eae9741817a75daf40d2c2898ece93e66fc1db1ecd0566bd229dfa642fc452",
+      "bytes": 1085,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/soil_moisture/dataset.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/soil_moisture/dataset.py",
+      "sha256": "d1d43e4796b88f998a7882df318131338c290285b3adc724cedceffd7d001374",
+      "bytes": 1921,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/soil_moisture/dump_val_preds_from_ckpt.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/soil_moisture/dump_val_preds_from_ckpt.py",
+      "sha256": "4b7c0f063cb459c4a7fb79110cdbe6c22cbf042ecaf73682d09127a07ee5a4fb",
+      "bytes": 2567,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/soil_moisture/eval.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/soil_moisture/eval.py",
+      "sha256": "9009af58cf21963bddc28e38a461e199169de0e61fbb6a056f8377694221abd6",
+      "bytes": 2774,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/soil_moisture/eval_from_val_preds_quick.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/soil_moisture/eval_from_val_preds_quick.py",
+      "sha256": "f7adf51a77e85ac7e8017346b7a68c2797746021d3709e2db8ddc1953f1f9611",
+      "bytes": 1700,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/soil_moisture/eval_unseen_moisture.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/soil_moisture/eval_unseen_moisture.py",
+      "sha256": "c0b622b6178af152d82710f6b790ed34a6622caaa3b3d7b188c63356a6113e9b",
+      "bytes": 4158,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/soil_moisture/infer_folder.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/soil_moisture/infer_folder.py",
+      "sha256": "cdb9aac79cb75fdadd6664fc07a210346800e8cbdfd619dc91aedeacd9cc0261",
+      "bytes": 4202,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/soil_moisture/sim.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/soil_moisture/sim.py",
+      "sha256": "ba04ef752cfcaa1248e036281667f745591d0459943dd385f9935c1435c88057",
+      "bytes": 784,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "desktop/WERM/src/soil_moisture/svm_eval.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/soil_moisture/svm_eval.py",
+      "sha256": "4ca6d6327bfd1005b7adca1db66570ffceb136e6a38f53f9525318127bcdc1d3",
+      "bytes": 5326,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/soil_moisture/train.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/soil_moisture/train.py",
+      "sha256": "660b3684fc702a6f1f7a27b63a8501d7517768d0453d127e9e7cef2b8dbfa933",
+      "bytes": 8188,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "desktop/WERM/src/soil_moisture/utils.py",
+      "origin": "desktop",
+      "original_path": "WERM/src/soil_moisture/utils.py",
+      "sha256": "316223a05fdee9bf900d5fc2e8556250d3c0498cc17cf0fa4a87d66d8de66a94",
+      "bytes": 638,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "drive-archive-001/WERM/src/train.py",
+      "origin": "drive-archive-001",
+      "original_path": "WERM/src/train.py",
+      "sha256": "660b3684fc702a6f1f7a27b63a8501d7517768d0453d127e9e7cef2b8dbfa933",
+      "bytes": 8188,
+      "syntax": "pass",
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "drive-archive-001/WERM/src/dataset_residue.py",
+      "origin": "drive-archive-001",
+      "original_path": "WERM/src/dataset_residue.py",
+      "sha256": "6a7154e732d3f1a1b6fd688d56de00c715eff06ef65c58190250a859e87f52b5",
+      "bytes": 1170,
+      "syntax": "pass",
+      "notes": []
+    },
+    {
+      "release_path": "drive-archive-001/WERM/outputs/fusion/fusion_results.csv",
+      "origin": "drive-archive-001",
+      "original_path": "WERM/outputs/fusion/fusion_results.csv",
+      "sha256": "3cafd80604f812df84f939077124b0fa4d13e61fab9ebac65751dc585bb06eb2",
+      "bytes": 57321,
+      "syntax": null,
+      "notes": []
+    },
+    {
+      "release_path": "drive-archive-001/WERM/outputs/runs/residue_r18_mae_yearsplit_20260211_104508/meta.json",
+      "origin": "drive-archive-001",
+      "original_path": "WERM/outputs/runs/residue_r18_mae_yearsplit_20260211_104508/meta.json",
+      "sha256": "a0828a5bc9d7905a714fc8a2c8d58e3687c86f084455dc031f7247654c86d5b5",
+      "bytes": 634,
+      "syntax": null,
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "drive-archive-001/WERM/outputs/runs/AA_80_20_ep20_20260127_044503/compare_softmax_vs_svm.json",
+      "origin": "drive-archive-001",
+      "original_path": "WERM/outputs/runs/AA_80_20_ep20_20260127_044503/compare_softmax_vs_svm.json",
+      "sha256": "ee40f8052c6038c80fb408739c03d6173c5c6f831ddf52df0514350707eec27e",
+      "bytes": 2673,
+      "syntax": null,
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    },
+    {
+      "release_path": "drive-archive-001/WERM/outputs/runs/moisture_70_30_ep30_20260126_110719/compare_softmax_vs_svm.json",
+      "origin": "drive-archive-001",
+      "original_path": "WERM/outputs/runs/moisture_70_30_ep30_20260126_110719/compare_softmax_vs_svm.json",
+      "sha256": "5d342b7c5ee6e54afa4bc0b596fa6bbb31da96c9d18b75682a7af7ee9bcbb664",
+      "bytes": 2629,
+      "syntax": null,
+      "notes": [
+        "hardcoded local/Colab path: adapt before running"
+      ]
+    }
+  ],
+  "identical_content_groups": [
+    {
+      "sha256": "6293fc6e8f85f7d6e19a3053a51cdf13e00c879e31595bdfd0a4377f9d71694d",
+      "paths": [
+        "desktop/results/species_sensitivity/migration_matrix_Chenopodium_album_fixed.csv",
+        "desktop/results/species_sensitivity/migration_matrix_Chenopodium_album_rescaled.csv",
+        "desktop/results/species_sensitivity/migration_matrix_Melilotus_indica_fixed.csv",
+        "desktop/results/species_sensitivity/migration_matrix_Melilotus_indica_rescaled.csv",
+        "desktop/results/species_sensitivity/migration_matrix_Phalaris_minor_fixed.csv",
+        "desktop/results/species_sensitivity/migration_matrix_Phalaris_minor_rescaled.csv"
+      ]
+    },
+    {
+      "sha256": "6a7154e732d3f1a1b6fd688d56de00c715eff06ef65c58190250a859e87f52b5",
+      "paths": [
+        "desktop/WERM/src/residue_cover/dataset_residue.py",
+        "drive-archive-001/WERM/src/dataset_residue.py"
+      ]
+    },
+    {
+      "sha256": "660b3684fc702a6f1f7a27b63a8501d7517768d0453d127e9e7cef2b8dbfa933",
+      "paths": [
+        "desktop/WERM/src/soil_moisture/train.py",
+        "drive-archive-001/WERM/src/train.py"
+      ]
+    }
+  ],
+  "withheld": [],
+  "execution": "static inspection only; no model, training, API call or application execution",
+  "scope": "complete selected first-party source snapshot; datasets, weights, caches and third-party vendor trees excluded"
+}
